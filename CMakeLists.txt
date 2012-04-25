@@ -1,6 +1,7 @@
 project(cmake-module-test)
 cmake_minimum_required(VERSION 2.8)
-set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/modules")
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/modules")
 
 include(CheckEpoll)
 include(CheckKqueue)
