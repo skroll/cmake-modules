@@ -16,6 +16,6 @@ Adds the `CHECK_EPOLL` function. Checks if the system has `epoll` support.
 
 For example:
 
-    check_kqueue(HAS_EPOLL)
+    check_epoll(HAS_EPOLL)
 
 
